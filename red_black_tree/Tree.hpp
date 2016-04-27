@@ -56,6 +56,7 @@ void RedBlackTree<T, V>::insertToTree(const key_type& iKey, const value_type& iV
         }
         else
         {
+            pos->m_value = iValue;
             return ;
         }
     }
